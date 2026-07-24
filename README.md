@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/30329743/README.md)
 # TMDB API — Automated Test Suite
 
 ![Postman Tests](https://github.com/Nano277353/postmantest/actions/workflows/postman-tests.yml/badge.svg)
