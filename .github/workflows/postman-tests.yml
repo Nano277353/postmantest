@@ -2,12 +2,11 @@ name: Postman API Tests
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
   pull_request:
-    branches: [ main ]
+    branches: [ master ]
   schedule:
-    - cron: '0 6 * * *'  # optional: run daily at 6am UTC
-
+    - cron: '0 6 * * *'
 jobs:
   run-tests:
     runs-on: ubuntu-latest
